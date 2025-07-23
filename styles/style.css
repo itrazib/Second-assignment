@@ -1,0 +1,14 @@
+@media screen and (max-width: 576px) {
+        .display {
+          display: none;
+        }
+    }
+
+        
+.noto-serif-font {
+  font-family: "Noto Serif", serif;
+}
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+}
