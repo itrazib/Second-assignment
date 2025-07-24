@@ -2,9 +2,12 @@
 .primary-color{
   color: rgba(0, 0, 0, 0.5);
 }
+.leatest{
 
-@media screen and (max-width: 576px) {
-        .display {
+}
+
+@media screen and (max-width: 576px) {     
+  .display {
           display: none;
         }
         .banner{
@@ -19,6 +22,7 @@
         .banner-left{
             order: 2;
             width: 100%;
+            padding: 0px 15px;
         }
         .banner-left h1{
             font-size: 2.5rem;
@@ -34,15 +38,37 @@
         .lover-container{
           flex-direction: column;
           margin: 50px 0;
-          gap: 40px;
+          gap: 10px;
         }
           .lover-container h2{
-            width: 500px;
+            font-size: 2rem;
           }
         .badge{
           display: none;
         }
-    }
+        .latest-deal-container{
+          grid-template-columns: 1fr;
+          justify-content: center;
+        }
+        .plant{
+          height: 206px;
+          width: 365px;
+          background-position: center;
+          /* margin-left: 25px; */
+        }
+        .contain{
+          display: grid;
+          justify-items: center;
+        }
+
+      }
+      .center-div{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        text-align: center;
+      }
 
         
 .noto-serif-font {
