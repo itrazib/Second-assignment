@@ -1,3 +1,8 @@
+/* shared style */
+.primary-color{
+  color: rgba(0, 0, 0, 0.5);
+}
+
 @media screen and (max-width: 576px) {
         .display {
           display: none;
@@ -18,6 +23,13 @@
         .banner-left h1{
             font-size: 2.5rem;
             line-height: normal;
+        }
+        .container{
+          grid-template-columns: repeat(2,1fr);
+          justify-items: center;
+        }
+        .btn{
+          padding: 15px 40px;
         }
     }
 
